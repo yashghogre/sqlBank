@@ -1,0 +1,16 @@
+.mainDiv {
+    background-color: rgb(16, 105, 75);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+}
+

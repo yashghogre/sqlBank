@@ -1,0 +1,39 @@
+.main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('./../../public/vm-image.jpg') black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vw 100vh;
+}
+
+.cardsDiv {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+}
+
+.cardDiv {
+  background-color: rgb(16, 105, 75);
+  padding: 25px;
+  border-radius: 20px;
+  color: white;
+  transition: all 0.25s;
+}
+
+.cardDiv:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(16, 105, 75);
+  box-shadow:
+    0 0 15px 7px #fff,
+    /* 0 0 17px 10px #f0f, */
+    0 0 35px 23px #0ff;
+}
+
+.link {
+  text-decoration: none;
+}
